@@ -145,12 +145,12 @@ fun FirstScreen(playlistList: List<PlaylistModel>) {
                         text = item.description,
                         fontSize = 12.sp
                     )
-
                 }
             }
         }
     }
 }
+
 @Preview(showBackground = true)
 @Composable
 fun YoutubePreview() {
